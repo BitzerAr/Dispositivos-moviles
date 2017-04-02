@@ -1,4 +1,5 @@
 # Dispositivos-moviles Android Studio
+creamos una clase pública que herede de AppCompatActivity llamada SegundaActividad
 ```java
 package com.example.bitzer.primeraaplicacion;
 
@@ -9,3 +10,6 @@ package com.example.bitzer.primeraaplicacion;
 public class SegundaActividad {
 }
 ```
+Al poner extends AppCompatActivity se importa automaticamente la libreria 
+###import android.support.v7.app.AppCompatActivity;
+
