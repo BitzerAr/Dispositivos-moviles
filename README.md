@@ -10,7 +10,7 @@ package com.example.bitzer.primeraaplicacion;
 public class SegundaActividad {
 }
 ```
->Al poner extends AppCompatActivity se importa automaticamente la libreria 
-***
-##import android.support.v7.app.AppCompatActivity;
+Al poner extends AppCompatActivity se importa automaticamente la libreria 
+
+##**import android.support.v7.app.AppCompatActivity;
 
