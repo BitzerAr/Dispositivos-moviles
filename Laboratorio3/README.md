@@ -1,11 +1,6 @@
 Actividad 4 
 ============
- - [Introducción](#introducción)
-  - [¿Qué es Markdown?](#qué-es-markdown)
-  - [Ejemplos](#ejemplos)
-  - [Sintaxis básica](#sintaxis-básica)
-  - [GFM](#gfm)
-# Dispositivos-moviles Android Studio
+# Pregunta 1 a la 11
 creamos una clase pública que herede de AppCompatActivity llamada SegundaActividad
 ```java
 package com.example.bitzer.primeraaplicacion;
@@ -93,4 +88,39 @@ Lo anterior genera un error por lo que no existe dicha interfaz, por lo que crea
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
+```
+Para esto creamos nuestra nueva variable y asignarle un valor en ***strings.xml***
+```xml
+<resources>
+    <string name="app_name">PrimeraAplicacion</string>
+    <string name="app_nombre">SegundaActividad</string>
+ </resources>
+ ```
+ Creada nuestra Segunda Activida debemos indicarlo en el ***AndroidManifest.xml***
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bitzer.primeraaplicacion">
+
+    <application
+             ----------
+            >
+        -------------
+        -------------
+        <!--Añadimos lo siguiente -->
+        <activity
+            android:name=".SegundaActividad"
+            android:label="@string/seg_actividad" >
+        </activity>
+    </application>
+
+</manifest>
+```
+Creamos otro string en ***strings.xml***
+```xml
+<resources>
+    <string name="app_name">PrimeraAplicacion</string>
+    <string name="app_nombre">SegundaActividad</string>
+    <string name="seg_actividad">Mi Segunda Actividad</string>
+</resources>
 ```
