@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_location"
+        android:icon="@drawable/asd"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Location"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_date"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/asd"
+        android:title="Date and Time"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_sleep"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/asd"
+        android:title="Sleep"
+        app:showAsAction="always"/>
+</menu>
